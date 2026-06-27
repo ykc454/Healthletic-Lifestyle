@@ -1,0 +1,11 @@
+replicaCount: 2
+
+image:
+  repository: flask-api
+  tag: latest
+
+service:
+  type: LoadBalancer
+  port: 5000
+
+containerPort: 5000
