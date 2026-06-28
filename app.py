@@ -11,7 +11,7 @@ def home():
 @app.route("/health")
 def health():
     return jsonify({
-        "status": "soham"
+        "status": "healthy"
     })
 
 @app.route("/api/users")
